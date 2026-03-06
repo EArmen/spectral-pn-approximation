@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints
+
+# Generated experiment outputs
+results.csv
+results_table.tex
+scaling_plot.png
+scaling_plot.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
