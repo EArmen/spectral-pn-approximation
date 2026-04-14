@@ -35,20 +35,19 @@ in which the solution develops a thin internal Debye layer near the junction int
 
 For each prescribed value of $\delta$, the code performs:
 
-1. Solves the equilibrium Poisson--Boltzmann boundary-value problem;
+1. Solves the equilibrium Poisson--Boltzmann boundary-value problem
 
-2. Constructs the residual profile:
+2. Constructs the residual profile
 
-   $$
-   w_\delta(s) = u(s) - u_{\mathrm{lin}}(s)
-   $$
+$$
+w_\delta(s) = u(s) - u_{\mathrm{lin}}(s)
+$$
 
-3. Computes the derivative of the residual;
+3. Computes the derivative of the residual
 
-4. Evaluates sine spectral coefficients;
+4. Evaluates sine spectral coefficients
 
-5. Computes Chebyshev coefficients;
-
+5. Computes Chebyshev coefficients
 ---
 
 ## Scientific Objective
