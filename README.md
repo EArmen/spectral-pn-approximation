@@ -38,17 +38,18 @@ For each prescribed value of $\delta$, the code performs:
 
 1. Solves the equilibrium Poisson--Boltzmann boundary-value problem;
 2. Constructs the residual profile:
-   $$
+
+    $$
    w_\delta(s) = u(s) - u_{\mathrm{lin}}(s);
    $$
-3. Computes the derivative of the residual;
-4. Evaluates sine spectral coefficients;
-5. Computes Chebyshev coefficients;
-6. Extracts resolution diagnostics:
+4. Computes the derivative of the residual;
+5. Evaluates sine spectral coefficients;
+6. Computes Chebyshev coefficients;
+7. Extracts resolution diagnostics:
    - $K_\varepsilon^{H^1,\sin}$  
    - $K_\varepsilon^{L^2,\sin}$  
    - $K_\varepsilon^{\mathrm{cheb}}$
-7. Exports reproducible artifacts, including figures, data tables, and LaTeX-ready outputs.
+8. Exports reproducible artifacts, including figures, data tables, and LaTeX-ready outputs.
 
 ---
 
