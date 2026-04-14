@@ -31,7 +31,6 @@ $$
 in which the solution develops a thin internal Debye layer near the junction interface.
 
 ---
-
 ## Computational Pipeline
 
 For each prescribed value of $\delta$, the code performs:
